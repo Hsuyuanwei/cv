@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+
+<head>
+    <style>
+        .ok{
+            background-color: greenyellow;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+
+        th,
+        td {
+            border: 1px solid #333;
+            padding: 8px;
+        }
+
+        th {
+            background-color: #f4f4f4;
+        }
+
+        .break {
+            background-color: #fafafa;
+            font-weight: bold;
+        }
+
+        .col-header {
+            width: 12%;
+        }
+
+        .row-label {
+            width: 10%;
+            font-weight: bold;
+        }
+
+        td:hover {
+            background-color: #333;
+            color: white;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+
+    <table>
+        <tr>
+            <th class="row-label">日期</th>
+            <th>5/4</th>
+            <th>5/5</th>
+            <th>5/6</th>
+            <th>5/7段考</th>
+            <th>5/8段考</th>
+            <th>5/9放假</th>
+        </tr>
+        <tr>
+            <th class="row-label">星期</th>
+            <th class="col-header">一</th>
+            <th class="col-header">二</th>
+            <th class="col-header">三</th>
+            <th class="col-header">四</th>
+            <th class="col-header">五</th>
+            <th class="col-header">六</th>
+        </tr>
+        <tr class="break">
+            <td>節數</td>
+            <td colspan="6">早自習</td>
+        </tr>
+        <tr>
+            <td class="row-label">1</td>
+            <td class="ok" onclick="go('https://drive.google.com/file/d/10Vhnn1nI1Qa-kd49GwtOFvxeMjWIYiG5/view')">英文<br>第六課小卷 習作</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class="row-label">2</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class="row-label">3</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class="row-label">4</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+
+        <tr class="break">
+            <td colspan="7">午休</td>
+        </tr>
+
+        <tr>
+            <td class="row-label">5</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class="row-label">6</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class="row-label">7</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class="row-label">8</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+
+    <script>
+        function go(url) {
+
+            window.top.location.href = url;
+        }
+    </script>
+</body>
+
+</html>

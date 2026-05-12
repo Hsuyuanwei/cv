@@ -1,0 +1,33 @@
+.ok{
+            background-color: greenyellow;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+
+        th,
+        td {
+            border: 1px solid #333;
+            padding: 8px;
+        }
+
+        th {
+            background-color: #f4f4f4;
+        }
+
+        .break {
+            background-color: #fafafa;
+            font-weight: bold;
+        }
+
+        .col-header {
+            width: 12%;
+        }
+
+        .row-label {
+            width: 10%;
+            font-weight: bold;
+        }

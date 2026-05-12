@@ -1,33 +1,35 @@
-.ok{
-            background-color: greenyellow;
-        }
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            font-family: Arial, sans-serif;
-            text-align: center;
-        }
+.ok {
+    background-color: greenyellow;
+}
 
-        th,
-        td {
-            border: 1px solid #333;
-            padding: 8px;
-        }
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
 
-        th {
-            background-color: #f4f4f4;
-        }
+th,
+td {
+    border: 1px solid #333;
+    padding: 8px;
+}
 
-        .break {
-            background-color: #fafafa;
-            font-weight: bold;
-        }
+th {
+    background-color: #f4f4f4;
+    cursor: pointer;
+}
 
-        .col-header {
-            width: 12%;
-        }
+.break {
+    background-color: #fafafa;
+    font-weight: bold;
+}
 
-        .row-label {
-            width: 10%;
-            font-weight: bold;
-        }
+.col-header {
+    width: 12%;
+}
+
+.row-label {
+    width: 10%;
+    font-weight: bold;
+}

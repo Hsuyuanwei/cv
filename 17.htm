@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+
+<head>
+    <link rel="stylesheet" href="課表.css">
+</head>
+
+<body>
+
+    <table>
+        <tr>
+            <th class="row-label">日期</th>
+            <th>6/15</th>
+            <th>6/16</th>
+            <th>6/17</th>
+            <th>6/18</th>
+            <th>6/19(放假)</th>
+            <th>6/20(放假)</th>
+        </tr>
+        <tr>
+            <th class="row-label">星期</th>
+            <th class="col-header">一</th>
+            <th class="col-header">二</th>
+            <th class="col-header">三</th>
+            <th class="col-header">四</th>
+            <th class="col-header">五</th>
+            <th class="col-header">六</th>
+        </tr>
+        <tr class="break">
+            <td>節數</td>
+            <td colspan="6">早自習</td>
+        </tr>
+        <tr>
+            <td class="row-label">1</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class="row-label">2</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class="row-label">3</td>
+            <td></td>
+            <td class="ok" onclick="go('https://drive.google.com/file/d/1XyfzSemVHpJuBDXeltNC3rbtdac22sJM/view')">英文<br>雜誌 第六課</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class="row-label">4</td>
+            <td></td>
+            <td class="ok" onclick="go('https://drive.google.com/file/d/1OYcnl2mMPKk6bzm7mVM3i3o7-XnKRW_G/view')">數學<br>第十二課</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+
+        <tr class="break">
+            <td colspan="7">午休</td>
+        </tr>
+
+        <tr>
+            <td class="row-label">5</td>
+            <td class="ok" onclick="go('https://drive.google.com/file/d/12DzDbTEd52txm3rGegALrAkoeqLCdlkK/view')">英文<br>小卷</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class="row-label">6</td>
+            <td class="ok" onclick="go('https://drive.google.com/file/d/1H2Ee-S88g821DZsSPVwR3Bq1A4nI46R3/view')">數學<br>第十二單元</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class="row-label">7</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class="row-label">8</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+
+    <script>
+        function go(url) {
+            window.top.location.href = url;
+        }
+    </script>
+</body>
+
+</html>
